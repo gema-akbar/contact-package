@@ -15,5 +15,12 @@
         "psr-4": {
             "Gemaakbar\\Contact\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gemaakbar\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
 }
