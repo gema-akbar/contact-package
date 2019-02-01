@@ -1,0 +1,19 @@
+{
+    "name": "gema-akbar/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gema Akbar",
+            "email": "dityaksm21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gemaakbar\\Contact\\": "src/"
+        }
+    }
+}
